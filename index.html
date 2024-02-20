@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="display-1">Ebacflix</h1>
+
+        <div class="dropdown">
+            <button class="btn btn-primary">Entrar</button>
+            <button class="btn btn-primary dropdown-toggle" id="btn-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Idioma
+            </button>
+            <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Português</button></li>
+                <li><button class="dropdown-item" type="button">Inglês</button></li>
+                <li><button class="dropdown-item" type="button">Espanhol</button></li>
+            </ul>
+    </header>
+    <div class="container">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner carousel-fade">
+                <div class="carousel-item active">
+                    <img src="./img/o protetor.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/godfather.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/perfume de mulher.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Training-Day.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="card-header">
+                    <h3>Em alta</h3>
+                </div>
+                <div class="col-4">                  
+                    <div class="card text-bg-dark">
+                        <img src="./img/naufrago.jpg">
+                        <div class="card-img-overlay"></div>
+                        <div class="buttons">
+                            <button class="btb btn-secondary">Assistir</button>
+                            <button class="btb btn-secondary">Adicionar a lista</button>
+                        </div>
+                        <div class="card-text">
+                            <h5>Náufrago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-bg-dark">
+                        <img src="./img/lobo de wall street.jfif">
+                        <div class="card-img-overlay"></div>
+                        <div class="buttons">
+                            <button class="btb btn-secondary">Assistir</button>
+                            <button class="btb btn-secondary">Adicionar a lista</button>
+                        </div>
+                        <div class="card-text">
+                            <h5>O lobo de wall street</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-bg-dark">
+                        <img src="./img/o resgate do soldado ryan.jpg">
+                        <div class="card-img-overlay"></div>
+                        <div class="buttons">
+                            <button class="btb btn-secondary">Assistir</button>
+                            <button class="btb btn-secondary">Adicionar a lista</button>
+                        </div>
+                        <div class="card-text">
+                            <h5>O resgate do soldado Ryan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-movies">
+                    <button class="watch-more">Ver mais</button>
+                </div>            
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="card-header">
+                    <h3>Sua lista</h3>
+                </div>
+                <div class="col-4">                  
+                    <div class="card text-bg-dark">
+                        <img src="./img/o profissional.jpg">
+                        <div class="card-img-overlay"></div>
+                        <div class="buttons">
+                            <button class="btb btn-secondary">Assistir</button>
+                            <button class="btb btn-secondary">Remover da lista</button>
+                        </div>
+                        <div class="card-text">
+                            <h5>O profissional</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-bg-dark">
+                        <img src="./img/a procura da felicidade.jfif">
+                        <div class="card-img-overlay"></div>
+                        <div class="buttons">
+                            <button class="btb btn-secondary">Assistir</button>
+                            <button class="btb btn-secondary">Remover da lista</button>
+                        </div>
+                        <div class="card-text">
+                            <h5>A procura da felicidade</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card text-bg-dark">
+                        <img src="./img/o maskara">
+                        <div class="card-img-overlay"></div>
+                        <div class="buttons">
+                            <button class="btb btn-secondary">Assistir</button>
+                            <button class="btb btn-secondary">Remover da lista</button>
+                        </div>
+                        <div class="card-text">
+                            <h5>O maskara</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-movies">
+                    <button class="watch-more">Ver mais</button>
+                </div>            
+            </div>
+        </div>       
+    </div>
+    <footer>
+        <p>Ebacflix - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
